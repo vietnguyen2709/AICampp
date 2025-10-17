@@ -1,0 +1,87 @@
+body{
+    height:100vh;
+    background-image: url('background.webp');
+    background-size : cover;
+}
+
+
+
+.about-me{
+    font-size:53px;
+    color:aqua;
+    height:50%;
+}
+
+.pic1{
+    margin:10px;
+    width:400px;
+    height:400px;
+}
+
+.pic2{
+    margin:10px;
+    width: 400px;
+    height:400px;
+}
+
+.pictures{
+    height:50%;
+    
+}
+.header{
+    color:red;
+}
+
+.all-page{
+    display:flex;
+    height:100%;
+}
+
+.left{
+  
+    width:50%;
+    
+}
+
+.right{
+  
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+}
+
+
+
+.chatbot-btn{
+    padding:10px;
+    background-color:aqua;
+    transition:background-color 0.5s;
+}
+
+.picturebot-btn{
+    padding:10px;
+    background-color:aqua;
+}
+
+.chatbot-btn:hover{
+    background-color:rgb(3, 160, 160);
+}
+
+.picturebot-btn:hover{
+    background-color:rgb(3, 160, 160);
+}
+
+.card{
+    border-radius:20px;
+    width:20%;
+    height:20%;
+    padding:20px;
+    border-color:black;
+    
+}
+
+.emoji{
+    font-size:30px;
+}
